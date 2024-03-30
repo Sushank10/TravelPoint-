@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  header {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    color: #FFA500; 
+  }
+
+  .logo-container a{
+    text-decoration: none;
+    font-weight: normal;
+    transition: none;
+  }
+
+  .login-register button{
+    padding: 8px;
+  }
+
+  .login-register a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    transition: none;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav img {
+    max-height: 50px;
+    margin-right: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin-right: 15px;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #FFA500; 
+    font-weight: bold;
+    transition: transform 0.3s ease; 
+  }
+
+  a:hover {
+    color: #FFA500; 
+    transform: scale(1.1);
+  }
+  .nav-item {
+    color: #FFA500;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    padding: 10px;
+  }
+
+  .dropdown-content a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0;
+    border-bottom: 1px solid #FFA500;
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .background-image {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: url("./assets/bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(
+      255,
+      217,
+      2
+    ); 
+    opacity: 90%;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  #placeName {
+    font-size: 64px;
+    color: #FFA500;
+    font-weight: bold;
+  }
+
+  .btn {
+    background-color: #FFA500;
+    border: #333;
+  }
+
+  .btn:hover {
+    background-color: white;
+    color: #FFA500;
+  }
+
+  .logo {
+    max-height: 30px; 
+    margin-right: 10px;
+  }
+
+
+/* Container - Book now */
+.container-fluid{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.heading2{
+  text-align: center;
+  font-weight: bold;
+  color: #FFA500;
+  padding-bottom: 20px;
+}
+
+.container-fluid img{
+  border-radius: 20px;
+}
+
+
+/* Card details */
+.card-body .price{
+  font-weight: bold;
+}
+
+.card-price{
+  padding-bottom: 25px;
+}
+
+/* services */
+.services-img{
+  padding-bottom: 20px;
+  width: 60px;
+}
+
+#imageCarousel {
+  margin-top: 20px;
+}
+
+
+.img-slider {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-slider:hover {
+  transform: scale(1.1);
+}
+
+.carousel-item img{
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  width: 10%;
+  height: 10%;
+  margin: auto 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  text-decoration: none;
+  background-color: #FFA500;
+  border-radius: 30px;
+}
+
+.footer{
+  background-color: #FFA500;
+}
+
+/* Registration file css*/
+
+.register-container, .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%; 
+}
+
+.form-check-label{
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.register-form, .login-form {
+  max-width: 400px; 
+  width: 100%; 
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
